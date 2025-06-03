@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`495669a`](https://github.com/stdlib-js/stdlib/commit/495669aaf5064ff0043a6ceab9216a3b8c1c84f1) - update assertion
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`495669a`](https://github.com/stdlib-js/stdlib/commit/495669aaf5064ff0043a6ceab9216a3b8c1c84f1) - **fix:** update assertion _(by Athan Reines)_
 -   [`cc66d3b`](https://github.com/stdlib-js/stdlib/commit/cc66d3b709812126709d2d6c8232ffc2dbd8b576) - **feat:** add `ndarray/some-by` [(#7145)](https://github.com/stdlib-js/stdlib/pull/7145) _(by Muhammad Haris, Athan Reines)_
 
 </details>
