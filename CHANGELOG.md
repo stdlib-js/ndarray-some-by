@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-03)
+## Unreleased (2025-06-19)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`599c41f`](https://github.com/stdlib-js/stdlib/commit/599c41f5fb2ec89c381b7902319b779be8cc6bd5) - **docs:** remove extra empty lines [(#7405)](https://github.com/stdlib-js/stdlib/pull/7405) _(by stdlib-bot)_
 -   [`495669a`](https://github.com/stdlib-js/stdlib/commit/495669aaf5064ff0043a6ceab9216a3b8c1c84f1) - **fix:** update assertion _(by Athan Reines)_
 -   [`cc66d3b`](https://github.com/stdlib-js/stdlib/commit/cc66d3b709812126709d2d6c8232ffc2dbd8b576) - **feat:** add `ndarray/some-by` [(#7145)](https://github.com/stdlib-js/stdlib/pull/7145) _(by Muhammad Haris, Athan Reines)_
 

@@ -73,7 +73,6 @@ var someBy = require( '@stdlib/ndarray-some-by' );
 
 Tests whether at least `n` elements along one or more [`ndarray`][@stdlib/ndarray/ctor] dimensions pass a test implemented by a predicate function.
 
-
 ```javascript
 var array = require( '@stdlib/ndarray-array' );
 
@@ -194,7 +193,6 @@ var count = ctx.count;
 #### someBy.assign( x, n, out\[, options], predicate\[, thisArg] )
 
 Tests whether at least `n` elements along one or more [`ndarray`][@stdlib/ndarray/ctor] dimensions pass a test implemented by a predicate function and assigns results to a provided output [`ndarray`][@stdlib/ndarray/ctor].
-
 
 ```javascript
 var array = require( '@stdlib/ndarray-array' );
