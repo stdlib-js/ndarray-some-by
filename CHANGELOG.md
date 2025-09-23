@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-22)
+## Unreleased (2025-09-23)
 
 <section class="features">
 
@@ -34,6 +34,7 @@
 
 <details>
 
+-   [`2ebf45f`](https://github.com/stdlib-js/stdlib/commit/2ebf45f557a99301791e2d4dbf23609372711f9b) - **docs:** update comments _(by Athan Reines)_
 -   [`2848c77`](https://github.com/stdlib-js/stdlib/commit/2848c77bb0cf8fd2fc78fe72095a1aad2e545a36) - **fix:** improve type specificity, remove unreachable path, and fix docs _(by Athan Reines)_
 -   [`6f6da0a`](https://github.com/stdlib-js/stdlib/commit/6f6da0afaa12ef31691ae659f6a005f140d81cd1) - **fix:** add missing argument to format strings _(by Philipp Burckhardt)_
 -   [`599c41f`](https://github.com/stdlib-js/stdlib/commit/599c41f5fb2ec89c381b7902319b779be8cc6bd5) - **docs:** remove extra empty lines [(#7405)](https://github.com/stdlib-js/stdlib/pull/7405) _(by stdlib-bot)_
