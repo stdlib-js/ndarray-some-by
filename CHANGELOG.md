@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-23)
+## Unreleased (2025-09-25)
 
 <section class="features">
 
@@ -34,6 +34,7 @@
 
 <details>
 
+-   [`95e69dc`](https://github.com/stdlib-js/stdlib/commit/95e69dce83d0cfb84e270e9db302ae35178728bd) - **test:** add tests to `ndarray/some-by` for complete test coverage [(#8125)](https://github.com/stdlib-js/stdlib/pull/8125) _(by Muhammad Haris, Athan Reines)_
 -   [`2ebf45f`](https://github.com/stdlib-js/stdlib/commit/2ebf45f557a99301791e2d4dbf23609372711f9b) - **docs:** update comments _(by Athan Reines)_
 -   [`2848c77`](https://github.com/stdlib-js/stdlib/commit/2848c77bb0cf8fd2fc78fe72095a1aad2e545a36) - **fix:** improve type specificity, remove unreachable path, and fix docs _(by Athan Reines)_
 -   [`6f6da0a`](https://github.com/stdlib-js/stdlib/commit/6f6da0afaa12ef31691ae659f6a005f140d81cd1) - **fix:** add missing argument to format strings _(by Philipp Burckhardt)_
