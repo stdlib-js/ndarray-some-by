@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-25)
+## Unreleased (2025-11-21)
 
 <section class="features">
 
@@ -34,6 +34,8 @@
 
 <details>
 
+-   [`ce0bfa5`](https://github.com/stdlib-js/stdlib/commit/ce0bfa50e43dc1f8ee15679b6194c1349730de59) - **test:** fix underlying buffer type _(by Athan Reines)_
+-   [`67f4feb`](https://github.com/stdlib-js/stdlib/commit/67f4feb3b59fc5466e8302977634d3d5113467a8) - **style:** remove space _(by Athan Reines)_
 -   [`95e69dc`](https://github.com/stdlib-js/stdlib/commit/95e69dce83d0cfb84e270e9db302ae35178728bd) - **test:** add tests to `ndarray/some-by` for complete test coverage [(#8125)](https://github.com/stdlib-js/stdlib/pull/8125) _(by Muhammad Haris, Athan Reines)_
 -   [`2ebf45f`](https://github.com/stdlib-js/stdlib/commit/2ebf45f557a99301791e2d4dbf23609372711f9b) - **docs:** update comments _(by Athan Reines)_
 -   [`2848c77`](https://github.com/stdlib-js/stdlib/commit/2848c77bb0cf8fd2fc78fe72095a1aad2e545a36) - **fix:** improve type specificity, remove unreachable path, and fix docs _(by Athan Reines)_
