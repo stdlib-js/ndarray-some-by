@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-26)
+## Unreleased (2026-01-14)
 
 <section class="features">
 
@@ -34,6 +34,7 @@
 
 <details>
 
+-   [`51f5eea`](https://github.com/stdlib-js/stdlib/commit/51f5eea4350c3aff97620bda4ff3066935c23e3f) - **docs:** improve doctests for ndarray instances in `ndarray/some-by` [(#9410)](https://github.com/stdlib-js/stdlib/pull/9410) _(by kaushal-kumar-it, Athan Reines)_
 -   [`daf2cc8`](https://github.com/stdlib-js/stdlib/commit/daf2cc847c77117f4c5ae4e5e99ae224bb592edc) - **refactor:** add writable parameter to `ndarray/base/spread-dimensions` [(#9370)](https://github.com/stdlib-js/stdlib/pull/9370) _(by Muhammad Haris, Athan Reines)_
 -   [`ce0bfa5`](https://github.com/stdlib-js/stdlib/commit/ce0bfa50e43dc1f8ee15679b6194c1349730de59) - **test:** fix underlying buffer type _(by Athan Reines)_
 -   [`67f4feb`](https://github.com/stdlib-js/stdlib/commit/67f4feb3b59fc5466e8302977634d3d5113467a8) - **style:** remove space _(by Athan Reines)_
@@ -55,11 +56,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
 -   Philipp Burckhardt
+-   kaushal-kumar-it
 
 </section>
 

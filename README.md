@@ -86,10 +86,7 @@ var x = array( [ [ [ 1.0, 2.0 ] ], [ [ 3.0, 4.0 ] ], [ [ 0.0, 6.0 ] ] ] );
 
 // Perform reduction:
 var out = someBy( x, 2, predicate );
-// returns <ndarray>
-
-var v = out.get();
-// returns true
+// returns <ndarray>[ true ]
 ```
 
 The function accepts the following arguments:
@@ -109,7 +106,6 @@ By default, the function performs a reduction over all elements in a provided [`
 
 ```javascript
 var array = require( '@stdlib/ndarray-array' );
-var ndarray2array = require( '@stdlib/ndarray-to-array' );
 
 function predicate( value ) {
     return value > 0.0;
@@ -125,17 +121,13 @@ var opts = {
 
 // Perform reduction:
 var out = someBy( x, 2, opts, predicate );
-// returns <ndarray>
-
-var v = ndarray2array( out );
-// returns [ true, true ]
+// returns <ndarray>[ true, true ]
 ```
 
 By default, the function returns an [`ndarray`][@stdlib/ndarray/ctor] having a shape matching only the non-reduced dimensions of the input [`ndarray`][@stdlib/ndarray/ctor] (i.e., the reduced dimensions are dropped). To include the reduced dimensions as singleton dimensions in the output [`ndarray`][@stdlib/ndarray/ctor], set the `keepdims` option to `true`.
 
 ```javascript
 var array = require( '@stdlib/ndarray-array' );
-var ndarray2array = require( '@stdlib/ndarray-to-array' );
 
 function predicate( value ) {
     return value > 0.0;
@@ -152,10 +144,7 @@ var opts = {
 
 // Perform reduction:
 var out = someBy( x, 2, opts, predicate );
-// returns <ndarray>
-
-var v = ndarray2array( out );
-// returns [ [ [ true, true ] ] ]
+// returns <ndarray>[ [ [ true, true ] ] ]
 ```
 
 To set the predicate function execution context, provide a `thisArg`.
@@ -181,10 +170,7 @@ var ctx = {
 
 // Perform reduction:
 var out = someBy( x, 2, predicate, ctx );
-// returns <ndarray>
-
-var v = out.get();
-// returns true
+// returns <ndarray>[ true ]
 
 var count = ctx.count;
 // returns 2
@@ -213,12 +199,9 @@ var y = empty( [], {
 
 // Perform reduction:
 var out = someBy.assign( x, 2, y, predicate );
-// returns <ndarray>
+// returns <ndarray>[ true ]
 
 var bool = ( out === y );
-// returns true
-
-var v = y.get();
 // returns true
 ```
 
@@ -240,7 +223,6 @@ By default, the function performs a reduction over all elements in a provided [`
 ```javascript
 var array = require( '@stdlib/ndarray-array' );
 var empty = require( '@stdlib/ndarray-empty' );
-var ndarray2array = require( '@stdlib/ndarray-to-array' );
 
 function predicate( value ) {
     return value > 0.0;
@@ -261,12 +243,10 @@ var opts = {
 
 // Perform reduction:
 var out = someBy.assign( x, 2, y, opts, predicate );
+// returns <ndarray>[ true, true ]
 
 var bool = ( out === y );
 // returns true
-
-var v = ndarray2array( y );
-// returns [ true, true ]
 ```
 
 </section>
@@ -351,7 +331,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
