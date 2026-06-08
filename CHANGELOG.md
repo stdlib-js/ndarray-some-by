@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-21)
+## Unreleased (2026-06-08)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`a2a20a2`](https://github.com/stdlib-js/stdlib/commit/a2a20a2a6731a73a6e58cdf84d4e527ae939799e) - infer input ndarray type in `ndarray/some-by` assign overloads [(#12627)](https://github.com/stdlib-js/stdlib/pull/12627)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`a2a20a2`](https://github.com/stdlib-js/stdlib/commit/a2a20a2a6731a73a6e58cdf84d4e527ae939799e) - **fix:** infer input ndarray type in `ndarray/some-by` assign overloads [(#12627)](https://github.com/stdlib-js/stdlib/pull/12627) _(by Philipp Burckhardt)_
 -   [`5aadc76`](https://github.com/stdlib-js/stdlib/commit/5aadc76d03d8e3c511de2f14131be73dfe118af9) - **bench:** refactor to use string interpolation in `ndarray` [(#11445)](https://github.com/stdlib-js/stdlib/pull/11445) _(by Karan Anand)_
 
 </details>
@@ -24,9 +35,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
